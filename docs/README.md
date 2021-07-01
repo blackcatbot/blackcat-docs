@@ -1,4 +1,7 @@
-# Hello VuePress
+# Black cat 指令列表
 
-This is a test
-測試？
+::: tip
+輸入指令時請勿輸入<>或[] !
+:::
+
+將選單打開即可查看所有指令
