@@ -8,7 +8,8 @@ module.exports = {
   plugins: {
     "vuepress-plugin-auto-sidebar": {
       titleMap: {
-        mode: "asc"
+        commands: "指令",
+        misc: "test"
       }
     }
   },
