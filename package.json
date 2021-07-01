@@ -1,0 +1,25 @@
+{
+  "name": "blackcat-docs",
+  "version": "1.0.0",
+  "description": "Black cat Discord bot docs",
+  "main": "echo \"No entrypoint\"",
+  "scripts": {
+    "test": "echo \"No test script\"",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": "git+https://github.com/wolf-yuan-6115/blackcat-docs.git",
+  "author": "Wolf yuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wolf-yuan-6115/blackcat-docs/issues"
+  },
+  "homepage": "https://github.com/wolf-yuan-6115/blackcat-docs#readme",
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.8.2",
+    "@vuepress/plugin-google-analytics": "^1.8.2",
+    "@vuepress/plugin-search": "^1.8.2",
+    "vuepress": "^1.8.2",
+    "vuepress-theme-succinct": "^1.7.2"
+  }
+}
