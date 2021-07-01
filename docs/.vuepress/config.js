@@ -5,4 +5,17 @@ module.exports = {
   globalUIComponents: [
     'ThemeManager'
   ],
+  plugins: {
+    "vuepress-plugin-auto-sidebar": {
+      titleMap: {
+        mode: "asc"
+      },
+      title: {
+        mode: "titlecase",
+        map: {
+          "/commands": "🎉 Hello Vuepress 🎉"
+        }
+      }
+    }
+  },
 }
