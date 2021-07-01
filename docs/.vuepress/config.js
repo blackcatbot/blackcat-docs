@@ -1,5 +1,3 @@
-const sidebar = require("vuepress-auto-sidebar");
-
 module.exports = {
   title: "Black cat",
   description: "Discord Black cat機器人的指令列表",
@@ -7,8 +5,11 @@ module.exports = {
   globalUIComponents: [
     'ThemeManager'
   ],
-  themeConfig: {
-    base: "/docs",
-    sidebar: sidebar.getSidebar()
+  plugins: {
+    "vuepress-plugin-auto-sidebar": {
+      title: {
+        mode: "titlecase"
+      }
+    }
   }
 }

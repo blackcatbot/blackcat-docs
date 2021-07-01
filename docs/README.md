@@ -1,4 +1,4 @@
-# Black cat 指令列表
+## Black cat 指令列表
 
 ::: tip
 輸入指令時請勿輸入<>或[] !
