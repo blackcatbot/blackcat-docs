@@ -9,12 +9,6 @@ module.exports = {
     "vuepress-plugin-auto-sidebar": {
       titleMap: {
         mode: "asc"
-      },
-      title: {
-        mode: "titlecase",
-        map: {
-          "/commands": "🎉 Hello Vuepress 🎉"
-        }
       }
     }
   },
