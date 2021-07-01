@@ -5,14 +5,49 @@ module.exports = {
   globalUIComponents: [
     'ThemeManager'
   ],
-  plugins: {
-    "vuepress-plugin-auto-sidebar": {
-      title: {
-        mode: "titlecase",
-        map: {
-          "/commands": "Just for test"
-        }
+  themeConfig: {
+    sidebar: [
+      ["/", "歡迎"],
+      {
+        title: "指令",
+        path: "/commands",
+        children: [
+          "avatar.html",
+          "ban.html",
+          "clear.html",
+          "commands.html",
+          "dice.html",
+          "eat.html",
+          "filter.html",
+          "gay.html",
+          "help.html",
+          "kick.html",
+          "kill.html",
+          "loop.html",
+          "lucky.html",
+          "lyrics.html",
+          "nowplaying.html",
+          "pause.html",
+          "ping.html",
+          "play.html",
+          "playlist.html",
+          "question.html",
+          "queue.html",
+          "remove.html",
+          "repeat.html",
+          "resume.html",
+          "search.html",
+          "shuffle.html",
+          "skip.html",
+          "skipto.html",
+          "status.html",
+          "stop.html",
+          "support.html",
+          "sus.html",
+          "volume.html",
+          "youtube.html",
+        ]
       }
-    }
+    ]
   }
 }
