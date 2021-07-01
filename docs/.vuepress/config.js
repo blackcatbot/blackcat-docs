@@ -8,6 +8,7 @@ module.exports = {
     'ThemeManager'
   ],
   themeConfig: {
+    base: "/docs",
     sidebar: sidebar.getSidebar()
   }
 }
