@@ -5,12 +5,20 @@ module.exports = {
   globalUIComponents: [
     'ThemeManager'
   ],
+  head: [
+    ["script", {src: "https://arc.io/widget.min.js#kJumrvnj"}]
+  ],
   themeConfig: {
     sidebar: [
-      ["/", "歡迎"],
+      {
+        title: "開始使用",
+        children: [
+          "/",
+          "/invite.html"
+        ]
+      },
       {
         title: "指令",
-        path: "/commands",
         children: [
           "/commands/avatar.html",
           "/commands/ban.html",

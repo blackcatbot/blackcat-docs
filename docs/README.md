@@ -1,7 +1,5 @@
-## Black cat 指令列表
+# Black cat 使用說明
 
-::: tip
-輸入指令時請勿輸入<>或[] !
+::: warning 注意!!
+此文檔為Discord上的機器人: Black cat的說明文檔
 :::
-
-將選單打開即可查看所有指令
