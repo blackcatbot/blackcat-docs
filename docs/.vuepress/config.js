@@ -6,7 +6,7 @@ module.exports = {
     'ThemeManager'
   ],
   head: [
-    ["script", {src: "https://arc.io/widget.min.js#kJumrvnj"}]
+    ['link', { rel: 'icon', href: '/favicon.png' }]
   ],
   themeConfig: {
     sidebar: [
