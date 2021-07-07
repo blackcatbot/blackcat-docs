@@ -2,9 +2,8 @@
   "name": "blackcat-docs",
   "version": "1.0.0",
   "description": "Black cat Discord bot docs",
-  "main": "echo \"No entrypoint\"",
+  "main": "docs/.vuepress/config.js",
   "scripts": {
-    "test": "echo \"No test script\"",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
@@ -20,8 +19,6 @@
     "@vuepress/plugin-google-analytics": "^1.8.2",
     "@vuepress/plugin-search": "^1.8.2",
     "vuepress": "^1.8.2",
-    "vuepress-auto-sidebar": "^1.1.1",
-    "vuepress-plugin-auto-sidebar": "^2.3.0",
     "vuepress-theme-succinct": "^1.7.2"
   }
 }

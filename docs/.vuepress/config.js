@@ -9,6 +9,18 @@ module.exports = {
     ['link', { rel: 'icon', href: '/favicon.png' }]
   ],
   themeConfig: {
+    iconPrefix: "fas fa-",
+    feed: false,
+    nav: [
+      {
+        text: "邀請機器人",
+        link: "https://blackcatbot.tk/blackcat"
+      },
+      {
+        text: "加入Discord伺服器",
+        link: "https://blackcatbot.tk/discord"
+      }
+    ],
     sidebar: [
       {
         title: "開始使用",
