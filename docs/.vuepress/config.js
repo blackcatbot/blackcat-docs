@@ -7,6 +7,7 @@ module.exports = {
   ],
   themeConfig: {
     backToTop: true,
+    logo: "/favicon.png",
     nav: [
       {
         text: "邀請機器人",

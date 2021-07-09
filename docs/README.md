@@ -15,4 +15,16 @@ preactionBtn:
   type: primary
   ghost: true
   size: large
+footerColumn: 2
+footerWrap: 
+- headline: Black cat官方網站
+  items:
+  - title: 首頁
+    link: https://blackcatbot.tk
+  - title: 播放器控制面板
+    link: https://app.blackcatbot.tk/music
+- headline: 相關連結
+  items:
+  - title: 加入Discord伺服器
+    link: https://blackcatbot.tk/discord
 ---
