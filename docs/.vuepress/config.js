@@ -1,16 +1,12 @@
 module.exports = {
   title: "Black cat",
   description: "Discord Black cat機器人的指令列表",
-  theme: 'vuepress-theme-succinct',
-  globalUIComponents: [
-    'ThemeManager'
-  ],
+  theme: 'antdocs',
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }]
   ],
   themeConfig: {
-    iconPrefix: "fas fa-",
-    feed: false,
+    backToTop: true,
     nav: [
       {
         text: "邀請機器人",
