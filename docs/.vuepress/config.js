@@ -8,24 +8,8 @@ module.exports = {
   themeConfig: {
     backToTop: true,
     logo: "/favicon.png",
-    nav: [
-      {
-        text: "邀請機器人",
-        link: "https://blackcatbot.tk/blackcat"
-      },
-      {
-        text: "加入Discord伺服器",
-        link: "https://blackcatbot.tk/discord"
-      }
-    ],
     sidebar: [
-      {
-        title: "開始使用",
-        children: [
-          "/home.html",
-          "/invite.html"
-        ]
-      },
+      ["/home.html", "首頁"],
       {
         title: "指令",
         children: [
