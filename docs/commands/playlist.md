@@ -4,6 +4,6 @@
 
 ***
 
-::: info 用法:
+::: tip 用法:
 `b.playlist <YouTube播放清單網址/名稱>`
 :::

@@ -4,6 +4,6 @@
 
 ***
 
-::: info 用法:
+::: tip 用法:
 `b.commands <music/game/util/other>`
 :::
