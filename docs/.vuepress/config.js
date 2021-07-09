@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Black cat",
+  title: "Black cat文檔",
   description: "Discord Black cat機器人的指令列表",
   theme: 'antdocs',
   head: [
@@ -21,7 +21,7 @@ module.exports = {
       {
         title: "開始使用",
         children: [
-          "/",
+          "/home.html",
           "/invite.html"
         ]
       },
