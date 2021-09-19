@@ -47,7 +47,8 @@ module.exports = {
           "/commands/volume.html",
           "/commands/youtube.html",
         ]
-      }
+      },
+      ["/howdoes.html", "黑貓如何運作?"]
     ]
   }
 }
